@@ -18,3 +18,20 @@ header a.active {
   font-weight: 500;
   color: #466BF3;
 }
+
+.discount {
+  background-image: url('./assets/images/map.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(50, 88, 232, 0.1);
+}
+
+footer li {
+  margin-bottom: 14px;
+}
+
+footer li a {
+  font-weight: normal;
+  font-size: 16px;
+  color: #A1A1A3;
+}

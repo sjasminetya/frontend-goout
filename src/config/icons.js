@@ -11,6 +11,7 @@ import PLANE from '../assets/icons/ic-plane.svg';
 import SEARCH from '../assets/icons/ic-search.svg';
 import SEAT from '../assets/icons/ic-seat.svg';
 import STAR from '../assets/icons/ic-star.svg';
+import TARGET from '../assets/icons/ic-target.svg';
 import WEATHER from '../assets/icons/ic-weather.svg';
 
 const icons = {
@@ -27,6 +28,7 @@ const icons = {
   SEARCH,
   SEAT,
   STAR,
+  TARGET,
   WEATHER,
 };
 

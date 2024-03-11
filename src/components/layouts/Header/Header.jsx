@@ -4,7 +4,7 @@ import Button from '../../elements/Button/Button';
 
 const Header = () => {
   return (
-    <header className="flex justify-between items-center pt-[30px]">
+    <header className="flex justify-between items-center py-[30px]">
       <div className="flex items-center gap-[5px]">
         <img src={ICONS.LOGO} alt="logo" width={23} height={26} />
         <h5 className="font-semibold text-2xl text-blue-466BF3">Goout</h5>
