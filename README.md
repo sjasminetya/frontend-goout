@@ -1,6 +1,6 @@
 # Go Out, design template by shaynakit.com
 
-To see demo, [Open URL](https://shaynakit.com/)
+To see demo, [Open URL](https://frontend-goout.vercel.app/)
 
 In the project directory, you can run:
 
