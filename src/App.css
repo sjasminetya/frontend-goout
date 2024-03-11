@@ -7,3 +7,14 @@
 * {
   font-family: "Poppins", sans-serif;
 }
+
+header a {
+  font-weight: normal;
+  font-size: 16px;
+  color: #9C9C9C;
+}
+
+header a.active {
+  font-weight: 500;
+  color: #466BF3;
+}
