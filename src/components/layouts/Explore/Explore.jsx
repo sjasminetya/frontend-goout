@@ -44,7 +44,7 @@ const Explore = () => {
         {' '}
         Try it now by filling out the form below!
       </p>
-      <div className="grid grid-cols-4 mt-[60px] gap-[30px]">
+      <div className="max-md:flex max-md:flex-col grid max-lg:grid-cols-3 grid-cols-4 mt-[60px] gap-[30px]">
         {card({
           image: IMAGES.DESTINATION1,
           title: 'Watefall Haven',

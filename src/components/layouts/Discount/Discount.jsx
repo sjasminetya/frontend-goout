@@ -23,10 +23,10 @@ const Discount = () => {
         </span>
         <Button title="Register Account" className="mt-[30px] bg-blue-3258E8 text-white font-medium text-lg" />
       </div>
-      <div className="absolute -top-10 -right-10 w-[100px] h-[100px] rounded-full shadow-[0px_0px_25px_0px_rgba(0,0,0,0.13)] flex justify-center bg-white">
+      <div className="absolute -top-10 max-lg:right-0 -right-10 w-[100px] h-[100px] rounded-full shadow-[0px_0px_25px_0px_rgba(0,0,0,0.13)] flex justify-center bg-white">
         <img src={ICONS.LOVE} alt="love" width={56} height={56} />
       </div>
-      <div className="absolute bg-white -bottom-10 left-10 shadow-[0px_14px_25px_0px_rgba(242,242,242,1)] rounded-3xl w-[250px] p-4">
+      <div className="absolute bg-white max-md:-bottom-36 -bottom-10 max-md:left-0 left-10 shadow-[0px_14px_25px_0px_rgba(242,242,242,1)] rounded-3xl w-[250px] p-4 z-10">
         <div className="flex items-center gap-1 mb-2">
           {[1, 2, 3, 4, 5].map((val) => <img src={ICONS.STAR} alt="star" key={val} width={24} height={24} />)}
         </div>

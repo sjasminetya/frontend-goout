@@ -4,9 +4,9 @@ import Button from '../../elements/Button/Button';
 
 const Package = () => {
   return (
-    <div className="flex justify-center gap-[60px] mb-[120px]">
+    <div className="flex max-lg:flex-col flex-row justify-center gap-[60px] mb-[120px]">
       <div>
-        <div className="flex items-center gap-[30px]">
+        <div className="flex max-md:flex-col flex-row justify-center items-center gap-[30px]">
           <div className="border-4 border-blue-3258E8 rounded-3xl p-3 w-[304px] h-[404px]">
             <img src={IMAGES.POPULAR1} alt="popular" width="100%" height="100%" className="rounded-3xl" />
           </div>
@@ -15,10 +15,10 @@ const Package = () => {
           </div>
         </div>
       </div>
-      <div className="py-[38px]">
+      <div className="py-[38px] flex flex-col max-lg:items-center items-start">
         <p className="text-blue-3258E8 font-semibold text-base">Our Package</p>
-        <h1 className="text-black-232631 font-semibold text-4xl mb-3">Popular Trip Packages</h1>
-        <p className="text-base text-gray-7B7B7B font-normal">
+        <h1 className="text-black-232631 font-semibold text-4xl mb-3 max-lg:text-center">Popular Trip Packages</h1>
+        <p className="text-base text-gray-7B7B7B font-normal max-lg:text-center">
           A new way to travel by air the easy and fast way.
           <br />
           {' '}

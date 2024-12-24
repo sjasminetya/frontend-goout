@@ -10,7 +10,7 @@ import Service from './components/layouts/Service/Service';
 const App = () => {
   return (
     <div className="bg-white w-full min-h-screen">
-      <div className="h-full w-full px-[100px]">
+      <div className="h-full w-full px-5 lg:px-[100px]">
         <Header />
         <Banner />
         <Service />

@@ -3,9 +3,9 @@ import { ICONS, IMAGES } from '../../../config';
 
 const Footer = () => {
   return (
-    <footer className="bg-black-232631 p-[100px] relative h-[384px]">
-      <img src={IMAGES.LOGO} alt="logo" className="absolute bottom-0 right-10" width={277} height={314} />
-      <div className="flex gap-[100px]">
+    <footer className="bg-black-232631 max-md:p-5 p-[100px] relative min-h-[384px]">
+      <img src={IMAGES.LOGO} alt="logo" className="absolute bottom-0 right-10 max-lg:hidden block" width={277} height={314} />
+      <div className="flex max-md:flex-col flex-row max-md:gap-5 gap-[100px]">
         <div>
           <div className="flex items-center gap-[5px] mb-3">
             <img src={ICONS.LOGOWHITE} alt="logo" />
@@ -18,7 +18,7 @@ const Footer = () => {
             All Rights Reserved.
           </p>
         </div>
-        <div className="ml-3">
+        <div className="max-md:ml-0 ml-3">
           <p className="text-white font-medium text-base mb-4">Page Menus</p>
           <ul>
             <li>
